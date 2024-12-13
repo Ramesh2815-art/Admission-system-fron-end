@@ -1,0 +1,110 @@
+/* Login Form Container */
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* Login Form Styling */
+.login-form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title */
+.login-form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Group */
+.login-form-group {
+    margin-bottom: 15px;
+}
+
+.login-form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.login-form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-form-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Button */
+.login-form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form-button:hover {
+    background-color: #0056b3;
+}
+
+/* Register Link */
+.login-form-register {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-form-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form-link:hover {
+    text-decoration: underline;
+}
+
+
+.error-message{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.admitted{
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.pending{
+    color: yellow;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.rejected{
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+

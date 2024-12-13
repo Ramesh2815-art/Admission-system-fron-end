@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: navy;
+}
+#root{
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: navy; */
+    margin-top: 7px;
+}
+
+

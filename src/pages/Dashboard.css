@@ -1,0 +1,97 @@
+/* Unique wrapper class to scope the styles to the dashboard */
+.dashboard-wrapper {
+    padding: 20px;
+    background-color: #f4f7fc;
+  }
+  
+  /* Title of the dashboard */
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle for the student list */
+  .dashboard-subtitle {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* List of students */
+  .dashboard-student-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .student-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the student info */
+  .student-info {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Styling for status */
+  .student-status {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .student-status span {
+    font-weight: bold;
+  }
+  
+  /* Conditional styles based on the student's status */
+  .status-admitted {
+    color: green;
+  }
+  
+  .status-rejected {
+    color: red;
+  }
+  
+  .status-pending {
+    color: orange;
+  }
+  
+  /* Button styles */
+  .student-actions {
+    margin-top: 15px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Button styles based on action */
+  .btn-admit {
+    background-color: green;
+    color: white;
+  }
+  
+  .btn-reject {
+    background-color: red;
+    color: white;
+  }
+  
+  .btn-pending {
+    background-color: orange;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
